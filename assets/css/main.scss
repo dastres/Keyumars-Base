@@ -2,12 +2,69 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
+    font-family: iransansweb;
+    direction: rtl;
+    font-size: 16px;
 }
 
 html, body{
-    background-color: red;
-
     height: 100vh;
     width: 100vw;
+}
+
+div.coming-soon{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div.logo{
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+        img{
+            width: 100px;
+        }
+    }
+
+    div.vector{
+        width: 100%;
+        text-align: center;
+        img{
+            width: 80%;
+        }
+    }
+
+    div.description{
+        background-color: #30ADE3;
+        margin-top: -37px;
+        position: relative;
+
+        color: white;
+        padding: 20px;
+
+        height: 400px;
+
+        width: 80%;
+        border-radius: 10px 10px 0px 0px;
+
+        display: flex;
+        justify-content: center;
+
+        div.content{
+            position: absolute;
+            text-align: center;
+    
+            h1{
+                font-size: 1.8rem;
+            }
+    
+            div{
+                font-size: 0.9rem;
+                margin-top: 30px;
+            }
+        }
+    }
 }
 

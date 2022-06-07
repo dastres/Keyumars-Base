@@ -3,11 +3,76 @@
   margin: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: iransansweb;
+  direction: rtl;
+  font-size: 16px;
 }
 
 html, body {
-  background-color: red;
   height: 100vh;
   width: 100vw;
+}
+
+div.coming-soon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.coming-soon div.logo {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+div.coming-soon div.logo img {
+  width: 100px;
+}
+
+div.coming-soon div.vector {
+  width: 100%;
+  text-align: center;
+}
+
+div.coming-soon div.vector img {
+  width: 80%;
+}
+
+div.coming-soon div.description {
+  background-color: #30ADE3;
+  margin-top: -37px;
+  position: relative;
+  color: white;
+  padding: 20px;
+  height: 400px;
+  width: 80%;
+  border-radius: 10px 10px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.coming-soon div.description div.content {
+  position: absolute;
+  text-align: center;
+}
+
+div.coming-soon div.description div.content h1 {
+  font-size: 1.8rem;
+}
+
+div.coming-soon div.description div.content div {
+  font-size: 0.9rem;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
