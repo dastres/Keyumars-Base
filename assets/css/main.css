@@ -27,31 +27,47 @@ div.coming-soon {
 }
 
 div.coming-soon div.logo {
-  margin-top: 40px;
+  height: 10vh;
   width: 100%;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 div.coming-soon div.logo img {
-  width: 100px;
+  height: 90%;
 }
 
 div.coming-soon div.vector {
+  height: 30vh;
   width: 100%;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 div.coming-soon div.vector img {
-  width: 80%;
+  height: 90%;
 }
 
 div.coming-soon div.description {
+  height: 60vh;
   background-color: #30ADE3;
-  margin-top: -37px;
   position: relative;
   color: white;
   padding: 20px;
-  height: 400px;
   width: 80%;
   border-radius: 10px 10px 0px 0px;
   display: -webkit-box;
